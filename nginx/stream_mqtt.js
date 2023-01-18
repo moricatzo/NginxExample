@@ -44,6 +44,7 @@ function filter(s) {
                     s.log(packet_type + " to " + topics);
                     s.send(data, flags); // this s.send(...) works on njs version 0.7.9
                 }
+                return;
             case "publish":
                 if (topics.length == 0) {
                     s.send(data, flags);
