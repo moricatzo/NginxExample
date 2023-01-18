@@ -1,6 +1,6 @@
 # NginxExample
 
-An example of how in the js_filter handler function s.send(data, flags) works synchronously, but doesn't work asynchronously.
+An example of how in the js_filter handler function s.send(data, flags) works synchronously, but doesn't work asynchronously in case of publish.
 
 ## Prerequisites
 (examples given for MacOS)
